@@ -1,0 +1,111 @@
+/* *{
+    margin: 0;
+}
+.container{
+    background-color: black;
+    height: 100vh;
+    width: 375px;
+}
+.timerDisplay{
+    color: white;
+    height: 50%;
+    width: 375px;
+    text-align: center;
+    overflow: hidden;
+}
+#min{
+    display: inline-block;
+    margin-top: 30%;
+    width: 250px;
+    height: 100px;
+}
+#mil{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+h1{
+    font-size: 100px;
+}
+.timerBtn{
+    height: 15%;
+    width: 375px;
+}
+.timerBtn button{
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    border: none;
+    
+}
+#start{
+    background-color: rgba(0, 128, 0, 0.486);
+    color: rgb(26, 218, 26);
+    font-size: large;
+    float: right;
+    margin-right: 10px;
+}
+#reset{
+    background-color: rgba(151, 141, 141, 0.363);
+    color: #ffff;
+    font-size: large;
+    margin-left: 10px;
+}
+.timerBody{
+    height: 35%;
+}
+.timerBody table{
+    width: 375px;
+    color: #ffff;
+} */
+
+body{
+    background-color: black !important;
+    
+}
+.container{
+    color: white ;   
+}
+.row{
+    padding-top: 5rem;
+}
+#min{
+    text-align: end;
+}
+#mil{
+    text-align: start;
+}
+.btn-container{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.button{
+    height: 100px !important;
+    width: 100px !important;
+    border-radius: 100% !important;
+    border: none;
+    
+}
+h1{
+    font-size: 80px !important;
+}
+#reset{
+    background-color: rgba(151, 141, 141, 0.363);
+    color: #ffff;
+    font-size: large;
+}
+#start{
+    background-color: rgba(0, 128, 0, 0.486);
+    color: rgb(26, 218, 26);
+    font-size: large;
+    float: right;
+}
+#list{
+    padding: 0;
+    list-style-type: none;
+    overflow: scroll;
+}
+#list span{
+    float: right;
+}
